@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifylyrics",
+  "version": "${version}",
+  "name": "Axiom Client",
+  "description": "Visuals + Cosmetics + Lyrics. 3D knives on swords, inspect, hitboxes, block overlay, storage ESP, tracers, fullbright, color grade. Right Shift GUI, I inspect, K lyrics. No pixel mush — Poppins UI, 2K-scaled.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.axiom.client.AxiomClient"] },
+  "mixins": ["axiom.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

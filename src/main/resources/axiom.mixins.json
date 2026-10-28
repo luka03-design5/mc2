@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "dev.axiom.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
